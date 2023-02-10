@@ -1,11 +1,14 @@
-# Anatomy of commerce product
-Skeleton of commerce product, product variations and attributes
+# Anatomy of Commerce Product
+Skeleton of commerce product, product variations and attributes.
 
 ## Product
-In commerce, product is a reference with common fields to the product variants and the product attributes.
+In commerce, product is a reference with common fields { product_name, description, and images } to the product variants {product_id, variation_id} and the attributes[capacity, color].
 
 ## Variations
+Variations are
 
 ## Attributes
 
 ## Resources
+- [Drupal Commerce Guide](https://docs.drupalcommerce.org/commerce2/developer-guid)
+- [Attributes products and variations drupal commerce ](https://menetray.com/en/blog/attributes-products-and-variations-drupal-commerce)
