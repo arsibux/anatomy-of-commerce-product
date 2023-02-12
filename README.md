@@ -1,6 +1,6 @@
 # Anatomy of Commerce Product
 Skeleton of commerce product, product variations and attributes.
-**In commerce, PRODUCT Display mean display all possible variants as OPTIONS**
+In commerce, **PRODUCT DISPLAY** display all possible product variants as **OPTIONS**.
 
 ## Product
 In commerce, product is a reference with common fields { product_name, description, and images } to the product variants {product_id, variation_id} and the attributes[capacity, color].
