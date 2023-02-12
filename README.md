@@ -1,9 +1,8 @@
 # Anatomy of Commerce Product
 Skeleton of commerce product, product variations and attributes.
-In commerce, **PRODUCT DISPLAY** display all possible product variants as **OPTIONS**.
 
 ## Product
-In commerce, product is a reference with common fields { product_name, description, and images } to the product variants {product_id, variation_id} and the attributes[capacity, color].
+In commerce, product is a reference with common fields { product_name, description, and images } to the product variants {product_id, variation_id} and the attributes[capacity, color]. In commerce, **PRODUCT DISPLAY** display all possible product variants as **OPTIONS**.
 
 ![](https://github.com/arsibux/anatomy-of-commerce-product/blob/main/img/product.drawio.png)
 ## Variations
