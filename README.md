@@ -27,18 +27,57 @@ that a customer can filter and select a variant of his choice.
 - Variations
 - Images
 
-### Product
+### Product Title
+GET Method with parameter of product ID return return array having id and title of the product.
+- Path : api/v1/product/id/title
 - Method GET
 - Param int {id} //Product Id
-  - Response Data 
-     `` [
-  "id":1000,
-  "title":"Product Title"
-  ] ``
+- Return array Data[id, title]
+   `` ["id":1000, "title":"Product Title"] ``
 ### Attributes
+- Path : api/v1/product/id/attributes
+- Method GET
+- Param int {id} //Product Id
+- Return array Data[name, values[]]
+  ```` 
+  [{
+    "name": "capacity",
+      "values": [
+        "128 GB",
+        "256 GB",
+        "520 GB"
+     ]
+   },
+  {
+    "name": "color",
+    "values": [
+      "RED",
+      "BLUE",
+      "GREEN",
+      "BLACK"
+    ]
+  }]
+
 ### Variations
+- Path : api/v1/product/id/variations
+- Method GET
+- Param int {id} //Product Id
+- Return array Data[id, title]
+  `` ["id":1000, "title":"Product Title"] ``
+
 ### Variant
+- Path : api/v1/variant/{id}
+- Method GET
+- Param int {id} //variant Id
+- Return array Data[id, title]
+  `` ["id":1000, "title":"Product Title"] ``
+
 ### Images of Variant
+- Path : api/v1/product/id/title
+- Method GET
+- Param int {id} //Product Id
+- Return array Data[id, title]
+  `` ["id":1000, "title":"Product Title"] ``
 
 ## Product Display Component
 - Product Title Component
