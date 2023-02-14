@@ -15,7 +15,8 @@ Product attributes are the characteristics or properties which differntiate each
 value[VARIANT_ID]
 
 ## Display Product
-
+In e-commerce, product display provides all possible variants in such a mechanism 
+that a customer can filter and select a variant of his choice.
 ![](https://github.com/arsibux/anatomy-of-commerce-product/blob/main/img/display.png)
 
 ## Resources
