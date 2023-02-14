@@ -17,7 +17,28 @@ value[VARIANT_ID]
 ## Display Product
 In e-commerce, product display provides all possible variants in such a mechanism 
 that a customer can filter and select a variant of his choice.
+
 ![](https://github.com/arsibux/anatomy-of-commerce-product/blob/main/img/display.png)
+
+## API Structure for Product Detail
+**Product Detail Page** required following APIs to render the all details of selected variant.
+- Product 
+- Attributes
+- Variations
+- Images
+
+### Product
+### Attributes
+### Variations
+### Variant
+### Images of Variant
+
+## Product Display Component
+- Product Title Component
+- Product Attributes Component
+    - Capacity
+    - Color
+- Variant Component
 
 ## Resources
 - [Drupal Commerce Guide](https://docs.drupalcommerce.org/commerce2/developer-guid)
