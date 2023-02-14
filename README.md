@@ -31,10 +31,10 @@ that a customer can filter and select a variant of his choice.
 - Method GET
 - Param int {id} //Product Id
   - Response Data 
-     ``` [
+     `` [
   "id":1000,
   "title":"Product Title"
-  ] ```
+  ] ``
 ### Attributes
 ### Variations
 ### Variant
