@@ -16,6 +16,7 @@ value[VARIANT_ID]
 
 ## Display Product
 
+![](https://github.com/arsibux/anatomy-of-commerce-product/blob/main/img/display.png)
 
 ## Resources
 - [Drupal Commerce Guide](https://docs.drupalcommerce.org/commerce2/developer-guid)
