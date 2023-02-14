@@ -1,0 +1,108 @@
+// Get title of Product
+// api/v1/product/{id}
+[
+  {
+    "id": 1083,
+    "title": "Product Name"
+  }
+]
+// Get Attributes of product
+// api/v1/product/{id}/attributes
+[
+  {
+    "name": "capacity",
+    "values": [
+      "128 GB",
+      "256 GB",
+      "520 GB"
+    ]
+  },
+  {
+    "name": "color",
+    "values": [
+      "RED",
+      "BLUE",
+      "GREEN",
+      "BLACK"
+    ]
+  }
+]
+// Get published variants of product
+// api/v1/product/{id}/variations
+[
+  [
+    "id": 1829,
+    "capacity": "128 GB",
+    "color": "RED"
+  ],
+  [
+    "id": 1831,
+    "capacity": "256 GB",
+    "color": "RED"
+  ],
+  [
+    "id": 1833,
+    "capacity": "520 GB",
+    "color": "RED"
+  ],
+  [
+    "id": 1835,
+    "capacity": "128 GB",
+    "color": "BLUE"
+  ],
+  [
+    "id": 1837,
+    "capacity": "256 GB",
+    "color": "BLUE"
+  ],
+  [
+    "id": 1839,
+    "capacity": "520 GB",
+    "color": "BLUE"
+  ],
+  [
+    "id": 1841,
+    "capacity": "128 GB",
+    "color": "GREEN"
+  ],
+  [
+    "id": 1843,
+    "capacity": "256 GB",
+    "color": "GREEN"
+  ],
+  [
+    "id": 1845,
+    "capacity": "520 GB",
+    "color": "GREEN"
+  ],
+  [
+    "id": 1847,
+    "capacity": "128 GB",
+    "color": "BLACK"
+  ],
+  [
+    "id": 1849,
+    "capacity": "256 GB",
+    "color": "BLACK"
+  ],
+  [
+    "id": 1851,
+    "capacity": "520 GB",
+    "color": "BLACK"
+  ]
+]
+// Get Attributes of product
+// api/v1/variant/{id}
+[
+  "id":1829,
+  "name":"",
+  "attributes":[
+    {"name":"capacity", "value":"128 GB"},
+    {"name":"color", "value":"RED"}
+  ],
+  "stock":1,
+  "buying_methods":[
+    "net_cash":"",
+    "installment":""
+  ]
+]
