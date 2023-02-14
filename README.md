@@ -63,7 +63,17 @@ GET Method with parameter of product ID return return array having id and title 
 - Method GET
 - Param int {id} //Product Id
 - Return array Data[id, title]
-  `` ["id":1000, "title":"Product Title"] ``
+  ````
+  [{
+    "id": 1829,
+    "capacity": "128 GB",
+    "color": "RED"
+  },
+  {
+    "id": 1831,
+    "capacity": "256 GB",
+    "color": "RED"
+  }]
 
 ### Variant
 - Path : api/v1/variant/{id}
