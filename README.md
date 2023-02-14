@@ -34,11 +34,12 @@ GET Method with parameter of product ID return return array having id and title 
 - Param int {id} //Product Id
 - Return array Data[id, title]
    `` ["id":1000, "title":"Product Title"] ``
+
 ### Attributes
 - Path : api/v1/product/id/attributes
 - Method GET
 - Param int {id} //Product Id
-- Return array Data[name, values[]]
+- Return array attribute object
   ```` 
   [{
     "name": "capacity",
@@ -61,8 +62,8 @@ GET Method with parameter of product ID return return array having id and title 
 ### Variations
 - Path : api/v1/product/id/variations
 - Method GET
-- Param int {id} //Product Id
-- Return array Data[id, title]
+- Param int {id} Product Id
+- Return array Variant Object {id, capacity, color }
   ````
   [{
     "id": 1829,
@@ -78,16 +79,35 @@ GET Method with parameter of product ID return return array having id and title 
 ### Variant
 - Path : api/v1/variant/{id}
 - Method GET
-- Param int {id} //variant Id
-- Return array Data[id, title]
-  `` ["id":1000, "title":"Product Title"] ``
+- Param int {id} Variant Id
+- Return object Variant
+  ````
+  [
+  "id":1829,
+  "name":"",
+  "attributes":[
+    {"name":"capacity", "value":"128 GB"},
+    {"name":"color", "value":"RED"}
+  ],
+  "description":"detail about variant."
+  "stock":1,
+  "price":[
+    "value":100,
+    "currency":"USD"
+  ],
+]
 
 ### Images of Variant
-- Path : api/v1/product/id/title
+- Path : api/v1/variant/id/images
 - Method GET
-- Param int {id} //Product Id
-- Return array Data[id, title]
-  `` ["id":1000, "title":"Product Title"] ``
+- Param int {id} variant
+- Return array of images path
+  ````
+  [
+    "path1",
+    "path2"
+    "path3"
+  ]
 
 ## Product Display Component
 - Product Title Component
