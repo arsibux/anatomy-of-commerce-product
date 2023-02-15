@@ -29,14 +29,14 @@ that a customer can filter and select a variant of his choice.
 
 ### Product Title
 GET Method with parameter of product ID return return array having id and title of the product.
-- Path : api/v1/product/id/title
+- Path : api/v1/product/{id}/title
 - Method GET
 - Param int {id} //Product Id
 - Return array Data[id, title]
    `` ["id":1000, "title":"Product Title"] ``
 
 ### Attributes
-- Path : api/v1/product/id/attributes
+- Path : api/v1/product/{id}/attributes
 - Method GET
 - Param int {id} //Product Id
 - Return array attribute object
@@ -60,7 +60,7 @@ GET Method with parameter of product ID return return array having id and title 
   }]
 
 ### Variations
-- Path : api/v1/product/id/variations
+- Path : api/v1/product/{id}/variations
 - Method GET
 - Param int {id} Product Id
 - Return array Variant Object {id, capacity, color }
@@ -98,7 +98,7 @@ GET Method with parameter of product ID return return array having id and title 
 ]
 
 ### Images of Variant
-- Path : api/v1/variant/id/images
+- Path : api/v1/variant/{id}/images
 - Method GET
 - Param int {id} variant
 - Return array of images path
